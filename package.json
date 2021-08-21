@@ -1,0 +1,37 @@
+{
+  "name": "strapi-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "^3.6.7",
+    "strapi-admin": "^3.6.7",
+    "strapi-utils": "^3.6.7",
+    "strapi-plugin-content-type-builder": "^3.6.7",
+    "strapi-plugin-content-manager": "^3.6.7",
+    "strapi-plugin-users-permissions": "^3.6.7",
+    "strapi-plugin-email": "^3.6.7",
+    "strapi-plugin-upload": "^3.6.7",
+    "strapi-connector-bookshelf": "^3.6.7",
+    "knex": "<0.20.0",
+    "pg": "^8.7.1"
+  },
+  "author": {
+    "name": "Ken Ling"
+  },
+  "strapi": {
+    "uuid": "3eccd3d3-53ca-4f95-9447-3369909f44a3"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
